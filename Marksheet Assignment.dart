@@ -29,15 +29,16 @@ void main() {
   
   if(mathMarks>50 && engMarks>50 && urduMarks>50 && phyMarks>50 && chemMarks>50)
   {print("Congratulation you are Passed");}
-  else if(mathMarks<50)
+  
+  if(mathMarks<50)
    {print("You are failed in Math");}
-  else if(engMarks<50)
+  if(engMarks<50)
    {print("You are failed in English");}
-  else if(urduMarks<50)
+  if(urduMarks<50)
    {print("You are failed in Urdu");}
-  else if(phyMarks<50)
+  if(phyMarks<50)
    {print("You are failed in Physics");}
-  else if(chemMarks<50)
+  if(chemMarks<50)
    {print("You are failed in Chemisty");}
   print("\n");
   print("Total Marks:   "+ totalMarks.toString());
@@ -59,21 +60,4 @@ void main() {
   {print("Grade:         D");}
   else if(percentage<50)
   {print("Grade:         F");}
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  
-  
- 
-  
-  
-  
-  
-  
 }
